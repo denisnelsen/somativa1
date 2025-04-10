@@ -2,6 +2,9 @@ import java.util.Scanner;
 
 public class main {
     public static void main(String[] args) {
+
+        System.out.println("Bem-vindo(a) a Calculadora criada por Denis!");
+
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Calculadora");
