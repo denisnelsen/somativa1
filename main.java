@@ -10,6 +10,8 @@ public class main {
         System.out.println("2 - Subtrair");
         System.out.println("3 - Multiplicar");
         System.out.println("4 - Dividir");
+        System.out.println("5 - Potência (a^b)");
+
 
         System.out.print("Digite a opção (1/2/3/4): ");
         int opcao = sc.nextInt();
@@ -36,6 +38,8 @@ public class main {
                 } else {
                     System.out.println("Resultado: " + (a / b));
                 }
+            case 5:
+                System.out.println("Resultado: " + Math.pow(a, b));
                 break;
             default:
                 System.out.println("Opção inválida!");
