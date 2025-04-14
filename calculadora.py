@@ -1,3 +1,5 @@
+from datetime import datetime
+
 def somar(a, b):
     return a + b
 
@@ -31,6 +33,7 @@ def main():
     else:
         resultado = "Operação inválida!"
 
+    print("Data e hora da operação:", datetime.now())
     print("Resultado:", resultado)
 
 if __name__ == "__main__":
