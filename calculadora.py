@@ -13,7 +13,7 @@ def dividir(a, b):
     return a / b
 
 def main():
-    print("Calculadora")
+    print("Bem vindo a Calculadora do Denis")
     print("Operações disponíveis: +, -, *, /")
     
     a = float(input("Digite o primeiro número: "))
